@@ -54,7 +54,7 @@ const Header: React.FC = () => {
 
           a {
             text-decoration: none;
-            color: var(--geist-foreground);
+            color: #000;
             display: inline-block;
           }
 
@@ -89,7 +89,7 @@ const Header: React.FC = () => {
         <style jsx>{`
           a {
             text-decoration: none;
-            color: var(--geist-foreground);
+            color: #000;
             display: inline-block;
           }
 
@@ -102,7 +102,7 @@ const Header: React.FC = () => {
           }
 
           .right a {
-            border: 1px solid var(--geist-foreground);
+            border: 1px solid black;
             padding: 0.5rem 1rem;
             border-radius: 3px;
           }
@@ -119,7 +119,7 @@ const Header: React.FC = () => {
             Feed
           </a>
         </Link>
-        <Link href='drafts' legacyBehavior>
+        <Link href='/drafts' legacyBehavior>
           <a data-active={isActive('/drafts')}>My drafts</a>
         </Link>
         <style jsx>{`
@@ -129,7 +129,7 @@ const Header: React.FC = () => {
 
           a {
             text-decoration: none;
-            color: var(--geist-foreground);
+            color: #000;
             display: inline-block;
           }
 
@@ -159,7 +159,7 @@ const Header: React.FC = () => {
         <style jsx>{`
           a {
             text-decoration: none;
-            color: var(--geist-foreground);
+            color: #000;
             display: inline-block;
           }
 
@@ -178,7 +178,7 @@ const Header: React.FC = () => {
           }
 
           .right a {
-            border: 1px solid var(--geist-foreground);
+            border: 1px solid black;
             padding: 0.5rem 1rem;
             border-radius: 3px;
           }
